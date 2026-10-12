@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DeskStacks — Regulatory Compliance & Product Safety</title>
+  <meta name="description" content="European Union General Product Safety Regulation (GPSR), digital product compliance, age suitability, and economic operator disclosures for DeskStacks.">
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: rgba(255, 255, 255, 0.04);
+      --card-border: rgba(255, 255, 255, 0.1);
+      --accent: #00dcff;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", sans-serif;
+      background: radial-gradient(circle at 50% 0%, #151e33 0%, var(--bg) 80%);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 40px;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      margin-top: 0;
+      background: linear-gradient(135deg, #fff 20%, var(--accent) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: rgba(0, 220, 255, 0.12);
+      color: var(--accent);
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      border: 1px solid rgba(0, 220, 255, 0.25);
+    }
+    h2 {
+      font-size: 1.25rem;
+      color: #fff;
+      margin-top: 30px;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 8px;
+    }
+    p, li { color: var(--text-muted); font-size: 0.95rem; }
+    strong { color: #fff; }
+    a { color: var(--accent); text-decoration: none; }
+    .info-grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 12px;
+      background: rgba(255,255,255,0.03);
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid var(--card-border);
+      margin-top: 16px;
+    }
+    .info-label { font-weight: 700; color: #fff; }
+    .info-val { color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge">EU Regulation (EU) 2023/988 Compliance</div>
+    <h1>Regulations, Permits & Safety</h1>
+    <p><em>Official compliance disclosure for the European Union and international app distribution.</em></p>
+
+    <h2>1. General Product Safety Regulation (GPSR)</h2>
+    <p>In accordance with Regulation (EU) 2023/988 on general product safety for software distributed in the European Union, the following information identifies the software manufacturer and contact point:</p>
+
+    <div class="info-grid">
+      <div class="info-label">Product Name</div>
+      <div class="info-val">DeskStacks for macOS</div>
+
+      <div class="info-label">Bundle Identifier</div>
+      <div class="info-val">com.npds.app</div>
+
+      <div class="info-label">Developer / Manufacturer</div>
+      <div class="info-val">Rareș-Mihail Cristea</div>
+
+      <div class="info-label">Contact Email</div>
+      <div class="info-val"><a href="mailto:support@deskstacks.app">support@deskstacks.app</a></div>
+
+      <div class="info-label">Country of Origin</div>
+      <div class="info-val">Romania, European Union</div>
+
+      <div class="info-label">Target Architecture</div>
+      <div class="info-val">macOS 14.0 Sonoma & newer (Apple Silicon & Intel)</div>
+    </div>
+
+    <h2 id="age-suitability">2. Age Suitability & Rating</h2>
+    <p>DeskStacks is rated <strong>4+ (All Ages / General Audience)</strong>. It is a desktop organization utility designed for general computing. It contains:</p>
+    <ul>
+      <li>No violent, obscene, or adult content</li>
+      <li>No gambling or simulated casino mechanics</li>
+      <li>No user communication forums or unmoderated chat</li>
+      <li>No third-party advertising or commercial sponsorships</li>
+    </ul>
+
+    <h2>3. Regulated Medical Devices Disclosure</h2>
+    <p>DeskStacks is purely an operating system organizational utility and does <strong>not</strong> perform medical diagnosis, physiological monitoring, or clinical data assessment. It is <strong>not a medical device</strong> under EU MDR (2017/745) or US FDA regulations.</p>
+
+    <h2>4. Export Administration & Cryptography</h2>
+    <p>DeskStacks utilizes standard Apple OS-provided cryptography (CryptoKit, HTTPS, Keychain) strictly for StoreKit 2 transaction validation. It is classified as exempt under EAR Category 5, Part 2.</p>
+  </div>
+</body>
+</html>
