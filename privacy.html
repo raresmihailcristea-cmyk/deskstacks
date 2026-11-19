@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DeskStacks — Privacy Policy</title>
+  <meta name="description" content="Official Privacy Policy for DeskStacks for macOS. 100% on-device data processing, zero analytics, zero data collection.">
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: rgba(255, 255, 255, 0.04);
+      --card-border: rgba(255, 255, 255, 0.1);
+      --accent: #00dcff;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", sans-serif;
+      background: radial-gradient(circle at 50% 0%, #151e33 0%, var(--bg) 80%);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 40px;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      margin-top: 0;
+      background: linear-gradient(135deg, #fff 20%, var(--accent) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: rgba(0, 220, 255, 0.12);
+      color: var(--accent);
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      border: 1px solid rgba(0, 220, 255, 0.25);
+    }
+    h2 {
+      font-size: 1.25rem;
+      color: #fff;
+      margin-top: 30px;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 8px;
+    }
+    p, li { color: var(--text-muted); font-size: 0.95rem; }
+    strong { color: #fff; }
+    a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge">Apple App Store Privacy Standard: Data Not Collected</div>
+    <h1>DeskStacks Privacy Policy</h1>
+    <p><em>Effective Date: October 2026 • Version 1.0</em></p>
+    
+    <p>This Privacy Policy explains how <strong>DeskStacks</strong> ("the Application"), developed by <strong>Rareș-Mihail Cristea</strong>, handles information when you use the software on macOS.</p>
+
+    <h2>1. Fundamental Architecture: Zero Data Collection</h2>
+    <p>DeskStacks is designed from the ground up as a native, <strong>100% on-device productivity utility</strong>. We believe your desktop, notes, files, and calendar events are strictly private:</p>
+    <ul>
+      <li><strong>No Analytics or Telemetry:</strong> We do not track application launches, feature usage, or user session lengths.</li>
+      <li><strong>No Crash Reporting Servers:</strong> Crash diagnostics are handled locally by macOS if you opt in with Apple.</li>
+      <li><strong>No Remote Tracking or Cookies:</strong> The application does not communicate with any external developer server.</li>
+    </ul>
+
+    <h2>2. Local File & Folder Access</h2>
+    <p>DeskStacks operates inside the macOS App Sandbox. It only inspects and organizes files, folders, or desktop items that you explicitly grant access to via standard macOS file permissions or system open dialogs. All indexing, previews, and sweeps occur locally on your Mac's storage.</p>
+
+    <h2>3. Reminders, Calendar, and Apple Music Integration</h2>
+    <p>When you enable the Reminders, Calendar, or Music widgets, DeskStacks uses Apple's official EventKit, Apple Events, and Media framework APIs to read and display your items. This data never leaves your device and is not saved to any third-party database.</p>
+
+    <h2>4. Voice Dictation Privacy</h2>
+    <p>Voice dictation in DeskStacks utilizes Apple's native on-device Speech framework (where supported by Apple Silicon) or Apple's system speech recognition. Audio samples are never stored or recorded by DeskStacks.</p>
+
+    <h2>5. In-App Purchases & Licensing (StoreKit 2)</h2>
+    <p>Transactions for the DeskStacks subscription and Lifetime Pass are processed directly through Apple's App Store and StoreKit 2 APIs. We do not receive, process, or store your payment details, credit card numbers, or Apple ID credentials.</p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>DeskStacks does not collect personal data from anyone, including children under 13.</p>
+
+    <h2>7. Developer Contact</h2>
+    <p>For questions regarding this policy, contact the developer at: <a href="mailto:support@deskstacks.app">support@deskstacks.app</a>.</p>
+  </div>
+</body>
+</html>

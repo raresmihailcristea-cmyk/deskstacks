@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DeskStacks — Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #0c0f17;
+      --card-bg: rgba(255, 255, 255, 0.04);
+      --border: rgba(255, 255, 255, 0.1);
+      --accent: #38bdf8;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      margin: 0;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 48px;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-top: 0;
+      background: linear-gradient(135deg, #fff 0%, var(--accent) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: rgba(56, 189, 248, 0.12);
+      color: var(--accent);
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 24px;
+      border: 1px solid rgba(56, 189, 248, 0.25);
+    }
+    h2 {
+      font-size: 1.3rem;
+      color: #fff;
+      margin-top: 32px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+    p, li {
+      color: var(--text-muted);
+    }
+    strong {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge">Privacy First Architecture</div>
+    <h1>DeskStacks Privacy Policy</h1>
+    <p><em>Last updated: October 2026</em></p>
+    
+    <p>DeskStacks ("the Application") is an ultra-fast desktop workspace and capsule organizer for macOS, engineered with <strong>Zero-Knowledge and 100% On-Device Privacy</strong> as core architecture.</p>
+
+    <h2>1. Zero Data Collection & Tracking</h2>
+    <p>DeskStacks <strong>does not collect, track, transmit, or monetize</strong> any personal data, usage patterns, device identifiers, or file contents. We maintain no analytics servers and run zero telemetry code.</p>
+
+    <h2>2. Local File & Capsule Management</h2>
+    <p>All folder indexing, capsule stacking, and file previews happen locally on your Mac using native Apple File System (APFS) APIs. Files never leave your local storage.</p>
+
+    <h2>3. Zero-Knowledge Protected Vault</h2>
+    <p>Items placed in the protected Vault capsule are encrypted locally using military-grade AES-256-GCM. Keys are secured within your Apple Keychain / Secure Enclave and protected by Touch ID. No external entity can access or decrypt your vault.</p>
+
+    <h2>4. Apple Sandboxing & Security</h2>
+    <p>DeskStacks complies fully with Apple's macOS App Sandbox security model. It accesses folders strictly through explicit system authorizations.</p>
+
+    <h2>5. Contact</h2>
+    <p>For questions or privacy inquiries, contact the developer at <strong>support@deskstacks.app</strong>.</p>
+  </div>
+</body>
+</html>
